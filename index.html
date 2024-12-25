@@ -10,14 +10,14 @@
 <body>
     <header> <!--cabeçalho -->
         <img id="logo" onclick='redirecionar()'1' src="img/logo.svg" alt="Logo da empresa PetLife"/>
-            <a href="index.html">PetLife<!--Para navegar por outro documento que faz parte do memsmo projeto, é apenas fazer assim --> </a> 
-    </header>
+            <a href="index.html">PetLife<!--Para navegar por outro documento que faz parte do memsmo projeto, é apenas fazer assim --> </a>     
     <nav> <!--Navegação da página: ao invés de sair da pagina estamos navegando entre seções do documento-->
         <a href="#inicio">Inicio</a> <!-- O uso da # é para indicar que é dentro da página-->
         <a href="#clinica">Clínica</a>
         <a href="#farmacia">Farmácia</a>
         <a href="#duvidas">Dúvidas</a>  <!--E para navegar para outro site é apenas colocar a url inteira depois do href-->
     </nav>
+    </header>   
         <main> <!--conteúdo principal da página -->
             <section id="inicio"> 
                 <img src="img/start-img.svg" alt="Mulher de pele branca e cabelos pretos brincando com seu cachorro de cor marrom, encostando as patas com as as mãos" loading="eager"> <!--Podemos colocar o width=para largura e height= para altura para reservar o espaço na página, facilitando o carregamento da página.-->
@@ -85,6 +85,30 @@
                 </div>
                
             </section>
+            <footer> <!--Útilizamos essa tag quando queremos adicionar o rodape a página-->
+                <div>
+                    <img src="img/logo.svg" alt="PetLife">
+                    <p>Cuidando com amor, vivendo com alegria: PetLife, onde a vida dos pets é mais feliz!</p>
+                </div>
+
+                <div>
+                    <Strong>Links rápidos</Strong>
+                    <nav>
+                        <a href="#inicio">Inicio</a> 
+                        <a href="#clinica">Clínica</a>
+                        <a href="#farmacia">Farmácia</a>
+                        <a href="#duvidas">Dúvidas</a>
+                    </nav>
+                </div>
+
+                <div>
+                    <Strong>Encontre-nos</Strong>
+                    <p> <a href="Https://wa.me/5581982559860" target="_blank">Whatsapp</p></a>
+                    <p><a href="mailto:ivirtonfilho@gmail.com" target="_blank">Email</a></p>
+                    <p><a href="https://www.google.com.br/maps/preview">Google Maps</a></p>
+                </div>
+                
+            </footer>
         </main>
     <script src="script.js"></script>
 </body>

@@ -1,0 +1,13 @@
+ *{/* esse "*" significa que vai afetar todos os elementos da página */
+    margin: 0; /* serve para retirar a margem dos elementos */
+    padding:0;  /* serve para retirar o espaço das bordas e dos elementos */
+    box-sizing: border-box;
+} 
+
+body{
+
+}
+
+header {
+   background-color: rgb(241, 172, 67);
+}
