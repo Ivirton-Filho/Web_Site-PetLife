@@ -2,12 +2,118 @@
     margin: 0; /* serve para retirar a margem dos elementos */
     padding:0;  /* serve para retirar o espaço das bordas e dos elementos */
     box-sizing: border-box;
+    font-family: "Montserrat", serif;
 } 
 
 body{
-
+    color: #263132;
 }
 
 header {
+   padding-left: 80px; /* padding é o espaçamento interno */
+   padding-right: 80px; /* no caso é um espaçamento no header */
+   padding-top: 24px;
+   padding-bottom: 24px;
+    background-color: rgb(241, 172, 67);
+    display: flex; /* flex é um display que permite alinhar os elementos */
+    justify-content: space-between; /* alinha os elementos de forma que fiquem um de cada lado */
+}
+ header a { /* modificando apenas os links do header */
+    color: rgb(255, 255, 255);    
+    font-weight: 600; /* peso da fonta */
+    padding: 32px; /* espaçamento interno */
+ }
+
+
+
+ #inicio{
+    display: flex; 
+    align-items: center; /* alinha os elementos no centro */
+    gap: 38px; /* espaçamento entre os elementos */
+    padding: 24px 80px 128px 80px; /*topo, direita, baixo, esquerda */ 
+    position: relative; /* posição relativa */
+ }
+ h1 {
+   font-size: 32px; /* tamanho da fonte */
+   font-weight: 700; /* peso da fonte, quanto mais pesada, mais esperço aprenseta-se a fonte*/
+ }
+ h2 {
+   font-size: 32px; /* tamanho da fonte */
+   font-weight: 700; /* peso da fonte, quanto mais pesada, mais esperço aprenseta-se a fonte*/
+ }
+ .paragrafo {
+   line-height: 25px; /* altura da linha */
+   margin-top: 10px; /* margem superior */
+   margin-bottom: 10px; /* margem inferior */
+ }
+ .botao {
+   display: inline-block; 
+   background-color: #fd9779;
+   padding: 10px 23px; /* espaçamento interno */
+   border-radius: 7px; /* borda arredondada */
+   color: rgb(255, 255, 255); /* cor da fonte */
+   text-decoration: none; /* tira o sublinhado do link */
+   
+ }
+ .botao{
+   display: inline-block; 
+   background-color: #fd9779;
+   padding: 10px 23px; /* espaçamento interno */
+   border-radius: 7px; /* borda arredondada */
+   color: rgb(255, 255, 255); /* cor da fonte */
+   text-decoration: none; /* tira o sublinhado do link */
+
+ }
+ 
+
+ #clinica{
+   display: flex;
+   align-items: center;
+   gap: 38px; /* espaçamento entre os elementos */
+   padding: 54px 80px;
+   margin: auto;
+ }
+ #clinica li {
+   margin-right: 62px; /* margem a direita */
+   margin-bottom: 20px; /* margem inferior */
+ 
+ }
+
+ #farmacia {
+  text-align: center; /* alinha o texto ao centro */
+  margin: auto;
+}
+
+#duvidas {
+   display: flex;
+   align-items: center;
+   padding-top: 90px;
+   padding-bottom: 200px;
+   gap: 64px; /* espaçamento entre os elementos */
+}
+
+.duvida h3 {
+   border: 2px solid #fd9779;
+   border-radius: 7px;
+   padding-left: 20px;
+}
+.two {
+   border: 2px solid #fd9779;
+  
+}
+
+footer{
    background-color: rgb(241, 172, 67);
+   padding: 24px 80px;
+   display: flex;
+   align-items: center;
+   gap: 38px;
+   text-decoration: none;
+}
+footer nav a {
+   color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+footer  p a {
+   color: rgb(0, 0, 0);
 }

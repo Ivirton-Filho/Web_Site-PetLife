@@ -3,4 +3,4 @@ var logo = document.getElementById('logo')
         window.location.href ='index.html'
 }
 
-     
+var elementos = document.querySelectorAll('.duvida');
